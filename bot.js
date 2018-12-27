@@ -90,7 +90,11 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
     } else if (message.content === "/dip") {
-        var myArray = ["http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","https://imgur.com/a/rd9a8wD","http://gph.is/1nuYwhL","http://gph.is/2mWzTNG","http://gph.is/ZrvWRz","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
+        var myArray = ["http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/1nuYwhL","http://gph.is/2mWzTNG","http://gph.is/ZrvWRz","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.reply(rand);
+    } else if (message.content === "/compliment") {
+        var myArray = ["http://gph.is/2o3oEnP","http://gph.is/1ELmRUE","http://gph.is/2jn3slZ","http://gph.is/1YkOQEx","http://gph.is/XLpy51","http://gph.is/28K0w3i","http://gph.is/2of0ian","http://gph.is/2jWBwr8","http://gph.is/2kNsrCV","http://gph.is/1TIXwmJ","http://gph.is/2cuwW3I","http://gph.is/2GF9tao","http://gph.is/2jItST4","https://gph.is/Ktxwvq","http://gph.is/2lM9X3r","https://gph.is/2DAIJuh","http://gph.is/15MLKRw","http://gph.is/23gz95P","http://gph.is/2dMsHkX","http://gph.is/2dkW1fr","http://gph.is/2l0OAiD","http://gph.is/1rI9aeB","http://gph.is/2nqrqA7","https://gph.is/2JY2vir","http://gph.is/2d1OaGp","http://gph.is/2hdmZ9I","https://gph.is/2wWAoOo","http://gph.is/2kQz8EU","http://gph.is/2lL3q9j","http://gph.is/2vMfKPX","http://gph.is/2mXuLc1","http://gph.is/1sNlAKC","http://gph.is/29iPyQY","http://gph.is/2FhUXop","http://gph.is/2lu5baN","http://gph.is/2mu78ce","http://gph.is/2mchSeY"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
     } else if (message.content === "/csj-grid") {
@@ -140,7 +144,11 @@ client.on("message", message => {
                     },
                     {
                         name: "/dip",                            
-                        value: "A command to dip the f outta here!"
+                        value: "A command to dip the f outta here! HAND selected~"
+                    },
+                    {
+                        name: "/compliment",                            
+                        value: "A command to compliment someone. HAND selected~"
                     }
                 ]
               }
