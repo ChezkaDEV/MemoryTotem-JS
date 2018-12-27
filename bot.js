@@ -89,6 +89,10 @@ client.on("message", message => {
                     "https://gph.is/2BED83b","http://gph.is/2aA48C2","http://gph.is/2fMMXz2","http://gph.is/2g6wFlx","http://gph.is/2wcmmGn"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
+    } else if (message.content === "/dip") {
+        var myArray = ["http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","https://imgur.com/a/rd9a8wD","http://gph.is/1nuYwhL","http://gph.is/2mWzTNG","http://gph.is/ZrvWRz","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"],;   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.reply(rand);
     } else if (message.content === "/csj-grid") {
         message.reply("https://cdn.discordapp.com/attachments/521813298577014800/521813965324681292/Temperament_Matrix.png https://cdn.discordapp.com/attachments/521813298577014800/521814013051404317/Type_Grid.png");
     } else if (message.content === "/help") {
