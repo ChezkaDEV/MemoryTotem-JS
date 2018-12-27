@@ -92,51 +92,10 @@ client.on("message", message => {
     } else if (message.content === "/csj-grid") {
         message.reply("https://cdn.discordapp.com/attachments/521813298577014800/521813965324681292/Temperament_Matrix.png https://cdn.discordapp.com/attachments/521813298577014800/521814013051404317/Type_Grid.png");
     } else if (message.content === "/help") {
-        message.embeds({
-            embed: {
-                color: 3447003,
-                description: "Whats up Fellas! Here's the list of commands I know so far! " + 
-                            "If you want to teach me anymore commands, feel free to go to **#bytes-bot-request** channel~",
-                fields: [
-                    {
-                        name: "/[type]",                              
-                        value: "Brings up the type chart for a specific type. Replace `[type]` with the type you want (e.g. **/infj**)"
-                    },
-                    {
-                        name: "/csj-grid",                              
-                        value: "Brings up CSJ's typegrid"
-                    },
-                    {
-                        name: "/alltypes",                               
-                        value: "Brings up all 16 type charts."
-                    },
-                    {
-                        name: "/popcorn",                            
-                        value: "Brings up a popcorn GIF. HAND selected~"
-                    },
-                    {
-                        name: "/ballin",                              
-                        value: "Brings up a ballin GIF. HAND selected~"
-                    },
-                    {
-                        name: "/ball",                              
-                        value: "Brings up a ball GIF. HAND selected~"
-                    },
-                    {
-                        name: "/bigman",                              
-                        value: "Brings up a bigman GIF. HAND selected~"
-                    },
-                    {
-                        name: "/doffy",                            
-                        value: "A command for me to talk to Doffy!"
-                    },
-                    {
-                        name: "/comfort",                            
-                        value: "A command to get some comfort from yours truly~"
-                    }
-                ]
-              }
-        });
+        message.reply({embed: {
+            color: 3447003,
+            description: "A very simple Embed!"
+          }});
     } 
 
 
