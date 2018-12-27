@@ -7,7 +7,7 @@ client.on("ready", () => {
 
 client.on("message", message => {
     if (message.content === "/ping") {
-       message.reply("pong");
+       message.message("poop");
     } else if (message.content === "/estj") {
         message.reply("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     }
