@@ -97,6 +97,8 @@ client.on("message", message => {
         var myArray = ["http://gph.is/2o3oEnP","http://gph.is/1ELmRUE","http://gph.is/2jn3slZ","http://gph.is/1YkOQEx","http://gph.is/XLpy51","http://gph.is/28K0w3i","http://gph.is/2of0ian","http://gph.is/2jWBwr8","http://gph.is/2kNsrCV","http://gph.is/1TIXwmJ","http://gph.is/2cuwW3I","http://gph.is/2GF9tao","http://gph.is/2jItST4","https://gph.is/Ktxwvq","http://gph.is/2lM9X3r","https://gph.is/2DAIJuh","http://gph.is/15MLKRw","http://gph.is/23gz95P","http://gph.is/2dMsHkX","http://gph.is/2dkW1fr","http://gph.is/2l0OAiD","http://gph.is/1rI9aeB","http://gph.is/2nqrqA7","https://gph.is/2JY2vir","http://gph.is/2d1OaGp","http://gph.is/2hdmZ9I","https://gph.is/2wWAoOo","http://gph.is/2kQz8EU","http://gph.is/2lL3q9j","http://gph.is/2vMfKPX","http://gph.is/2mXuLc1","http://gph.is/1sNlAKC","http://gph.is/29iPyQY","http://gph.is/2FhUXop","http://gph.is/2lu5baN","http://gph.is/2mu78ce","http://gph.is/2mchSeY"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
+    } else if (message.content === "/grats") {
+        message.reply("https://www.youtube.com/watch?v=wDajqW561KM");
     } else if (message.content === "/csj-grid") {
         message.reply("https://cdn.discordapp.com/attachments/521813298577014800/521813965324681292/Temperament_Matrix.png https://cdn.discordapp.com/attachments/521813298577014800/521814013051404317/Type_Grid.png");
     } else if (message.content === "/help") {
