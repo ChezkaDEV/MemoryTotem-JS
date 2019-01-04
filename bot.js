@@ -79,7 +79,7 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
     } else if (message.content === "/comfort") {
-        var myArray = ["http://gph.is/2loY72U","http://gph.is/2ElfEDh","http://gph.is/2IAczO4","http://gph.is/2nq5i9T","https://gph.is/2mlqHRf","http://gph.is/2jeEDso",
+        var myArray = ["https://cdn.discordapp.com/attachments/521833712288268298/530617629577052170/6xx8ecfegb821.png","https://external-preview.redd.it/mp4/UNM6751zVnFZaXx3fZ6HvmRbx1JQNdxzdqHpuvVPwVo-source.mp4?s=cebdd9ae162142e5806c7ff569021372d9ab1141","http://gph.is/2loY72U","http://gph.is/2ElfEDh","http://gph.is/2IAczO4","http://gph.is/2nq5i9T","https://gph.is/2mlqHRf","http://gph.is/2jeEDso",
                     "http://gph.is/2kuWelr","https://gph.is/2LgMIfd","http://gph.is/2eMVqmm","http://gph.is/2sRP2lL","http://gph.is/2dlboRM",
                     "https://gph.is/2NsKzy8","http://gph.is/2iSDc6Z","http://gph.is/2dbYlE2","http://gph.is/1f1Ibvp","https://gph.is/2IZ4a6Q",
                     "http://gph.is/1uQztDb","http://gph.is/2je4FfU","http://gph.is/2fYny9E","http://gph.is/2lK3poO","http://gph.is/2nwJKKu",
