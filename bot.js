@@ -151,6 +151,10 @@ client.on("message", message => {
                     {
                         name: "/compliment",                            
                         value: "A command to compliment someone. HAND selected~"
+                    },
+                    {
+                        name: "/grats",                            
+                        value: "A command to congratulate someone."
                     }
                 ]
               }
