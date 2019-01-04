@@ -99,6 +99,8 @@ client.on("message", message => {
         message.reply(rand);
     } else if (message.content === "/grats") {
         message.reply("https://www.youtube.com/watch?v=wDajqW561KM");
+    } else if (message.content === "/gf3") {
+        message.reply("https://tenor.com/view/godfather-the-godfather-the-godfather-part-iii-michael-corleone-they-pull-me-back-in-gif-5625954");
     } else if (message.content === "/csj-grid") {
         message.reply("https://cdn.discordapp.com/attachments/521813298577014800/521813965324681292/Temperament_Matrix.png https://cdn.discordapp.com/attachments/521813298577014800/521814013051404317/Type_Grid.png");
     } else if (message.content === "/help") {
@@ -155,6 +157,10 @@ client.on("message", message => {
                     {
                         name: "/grats",                            
                         value: "A command to congratulate someone."
+                    },
+                    {
+                        name: "/gf3",                            
+                        value: "A command to one godfather command requested by Doffy."
                     }
                 ]
               }
