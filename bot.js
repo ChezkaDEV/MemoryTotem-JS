@@ -99,6 +99,10 @@ client.on("message", message => {
         message.reply(rand);
     } else if (message.content === "/grats") {
         message.reply("https://www.youtube.com/watch?v=wDajqW561KM");
+    }  else if (message.content === "/ni") {
+        message.reply("https://youtu.be/pmvrl1OfELo?t=30");
+    } else if (message.content === "/zoop") {
+        message.reply("https://discordemoji.com/assets/emoji/fingergunz.gif");
     } else if (message.content === "/gf3") {
         message.reply("https://tenor.com/view/godfather-the-godfather-the-godfather-part-iii-michael-corleone-they-pull-me-back-in-gif-5625954");
     } else if (message.content === "/csj-grid") {
@@ -161,6 +165,14 @@ client.on("message", message => {
                     {
                         name: "/gf3",                            
                         value: "A command to one godfather command requested by Doffy."
+                    },
+                    {
+                        name: "/ni",                            
+                        value: "A command to let one know they have strong Ni requested by Syn."
+                    },
+                    {
+                        name: "/zoop",                            
+                        value: "A command to zoop."
                     }
                 ]
               }
