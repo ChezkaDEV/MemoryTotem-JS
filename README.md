@@ -3,7 +3,7 @@
 
 Memory Totem is my first Discord Bot! Created it purely for fun. Brings up Typology Charts created by CSJ, and much more random stuff tbh. All rights reserved to its rightful owner.
 
-Here's the list of commands I know so far! If you want to teach me anymore commands, feel free to go to #bytes-bot-request channel~
+Here's the list of commands the bot knows so far! 
 
 /[type]
 Brings up the type chart for a specific type. Replace [type] with the type you want (e.g. /infj)
