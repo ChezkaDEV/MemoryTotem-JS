@@ -101,6 +101,8 @@ client.on("message", message => {
         message.reply("https://www.youtube.com/watch?v=wDajqW561KM");
     }  else if (message.content === "/ni") {
         message.reply("https://youtu.be/pmvrl1OfELo?t=30");
+    }  else if (message.content === "/handshake") {
+        message.reply("https://giphy.com/gifs/arnold-schwarzenegger-predator-carl-weathers-BvsKJXGzqfNPq");
     } else if (message.content === "/zoop") {
         message.reply("https://discordemoji.com/assets/emoji/fingergunz.gif");
     } else if (message.content === "/gf3") {
@@ -173,6 +175,10 @@ client.on("message", message => {
                     {
                         name: "/zoop",                            
                         value: "A command to zoop."
+                    },
+                    {
+                        name: "/handshake",
+                        value: "A command to give a manly handshake with muscles."
                     }
                 ]
               }
