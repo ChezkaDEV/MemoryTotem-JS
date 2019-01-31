@@ -99,8 +99,10 @@ client.on("message", message => {
         message.reply(rand);
     } else if (message.content === "/grats") {
         message.reply("https://www.youtube.com/watch?v=wDajqW561KM");
-    }  else if (message.content === "/ni") {
+    } else if (message.content === "/ni") {
         message.reply("https://youtu.be/pmvrl1OfELo?t=30");
+    } else if (message.content === "/fax") {
+        message.reply("https://cdn.discordapp.com/attachments/525046526557421570/539605915310096394/Fax-Punch.png");
     }  else if (message.content === "/handshake") {
         message.reply("https://giphy.com/gifs/arnold-schwarzenegger-predator-carl-weathers-BvsKJXGzqfNPq");
     } else if (message.content === "/zoop") {
@@ -179,6 +181,10 @@ client.on("message", message => {
                     {
                         name: "/handshake",
                         value: "A command to give a manly handshake with muscles."
+                    },
+                    {
+                        name: "/fax",
+                        value: "A command let someone know you agree with what they say. fax = facts."
                     }
                 ]
               }
