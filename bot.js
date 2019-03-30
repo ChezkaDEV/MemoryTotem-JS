@@ -63,6 +63,10 @@ client.on("message", message => {
                     "http://gph.is/1PFX8VC","http://gph.is/28WN6fK","https://gph.is/1hYUc3j","http://gph.is/2gfa5YZ",];
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
+    }  else if (message.content.indexOf("/dipreject") >- 1) {
+        var myArray = ["https://media.giphy.com/media/O0GsnJyMPE2kM/giphy.gif","https://media.giphy.com/media/KquIfOxOe2oAo/giphy.gif","https://media.giphy.com/media/5YXZorc7vxJ7i/giphy.gif5","https://media.giphy.com/media/12OLpSrTR4VSFy/giphy.gif","https://media.giphy.com/media/9rpip2cxHBdU36GyHN/giphy.gif","https://media.giphy.com/media/mIvrv5Qe0kHlu/giphy.gif","https://media.giphy.com/media/3osxYz9sSvPoM8IRva/giphy.gif","https://media.giphy.com/media/mZ4GocL1wyGjK/giphy.gif","https://media.giphy.com/media/3o85xLDcbiw2Gy7evu/giphy.gif","https://media.giphy.com/media/8c0m9WFwG450I/giphy.gif","https://imgur.com/E0SyWpA","https://media.giphy.com/media/3o85xCUeTihvzB0sXm/giphy.gif"];
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
     } else if (message.content.indexOf("/ball") >- 1) {
         var myArray = ["http://gph.is/2nQ2zXB","http://gph.is/2jan1zJ","http://gph.is/14llJ4m",
                     "http://gph.is/17BQ4QS","http://gph.is/1tNtbHr", "http://gph.is/1He0FWZ", "http://gph.is/1BZ1yvd",
@@ -92,6 +96,10 @@ client.on("message", message => {
                 "DOFFFFYYYY~!~!~!~!~!", "Doffy is in the houssseee!", "Whatcha up to today my good ESTP?"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
+    }  else if (message.content.indexOf("/hide") >- 1) {
+        var myArray = ["https://media.giphy.com/media/TNKIEN3GaoWpG/giphy.gif", "https://media.giphy.com/media/3o84U1BGsvE134xA9G/giphy.gif", "https://media.giphy.com/media/KxcxysGVErgfm/giphy.gif", "https://media.giphy.com/media/Ylm8EmwVCStyFM41Yd/giphy.gif", "https://media.giphy.com/media/GBwq4BjJnWF8I/giphy.gif", "https://media.giphy.com/media/usY7qEZ1W2ali/giphy.gif", "https://media.giphy.com/media/26gsbCBIgy3RcItgI/giphy.gif", "https://media.giphy.com/media/jbwsLn6OvdO80/giphy.gif", "https://media.giphy.com/media/12yBKshqZ28MRG/giphy.gif", "https://media.giphy.com/media/l0HlNyrvLKBMxjFzG/giphy.gif", "https://media.giphy.com/media/l3q2TeZAHGBgs9IDC/giphy.gif", "https://media.giphy.com/media/V1NxC1YoNEHBe/giphy.gif", "https://media.giphy.com/media/xT0xemn9kAM4F52NFK/giphy.gif", "https://media.giphy.com/media/l0MYF44K8NgPSYwRa/giphy.gif", "https://media.giphy.com/media/9GIFGeuuinRxgEj7Zq/giphy.gif", "https://media.giphy.com/media/3HELB2Qwfu9dV1ZGYY/giphy.gif", "https://media.giphy.com/media/Adqe9XUP3x9LO/giphy.gif", "https://media.giphy.com/media/nspvD8XYqUxP2/giphy.gif", "https://media.giphy.com/media/B37cYPCruqwwg/giphy.gif", "https://media.giphy.com/media/COYGe9rZvfiaQ/giphy.gif",];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
     } else if (message.content.indexOf("/hackerman") >- 1) {
         message.channel.send("https://cdn.discordapp.com/attachments/525046526557421570/551080126213914624/4d7.png");
     } else if (message.content.indexOf("/comfort") >- 1) {
@@ -106,7 +114,7 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/dip") >- 1) {
-        var myArray = ["https://gph.is/g/aQA3nba","http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/2mWzTNG","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
+        var myArray = ["https://media.giphy.com/media/13sozYO4hmSMUw/giphy.gif","https://media.giphy.com/media/haEpZ7eLjtZM4/giphy.gif","https://gph.is/g/aQA3nba","http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/2mWzTNG","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/compliment") >- 1) {
@@ -114,7 +122,13 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/grats") >- 1) {
-        message.channel.send("https://www.youtube.com/watch?v=wDajqW561KM");
+        var myArray = ["https://www.youtube.com/watch?v=wDajqW561KM","https://youtu.be/1Bix44C1EzY"];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
+    } else if (message.content.indexOf("/smug") >- 1) {
+        var myArray = ["https://i.imgur.com/Vb0Ii1n.jpg", "https://i.imgur.com/5vLmPj2.jpg","https://i.imgur.com/NxaAFjn.png", "https://i.imgur.com/06T923R.jpg", "https://i.imgur.com/OJwseAf.jpg", "https://i.imgur.com/OhKe78s.png", "https://i.imgur.com/BTwvHvi.png", "https://i.imgur.com/DmV9aUy.jpg", "https://i.imgur.com/ImevMlI.jpg", "https://i.imgur.com/DhLWpHL.png", "https://i.imgur.com/8hyHKnF.png", "https://i.imgur.com/1yITWlW.jpg", "https://i.imgur.com/5pfNGNV.jpg", "https://i.imgur.com/vKBhkNJ.png", "https://i.imgur.com/na9nJCk.png", "https://i.imgur.com/OAEkNCn.jpg", "https://i.imgur.com/YFyqF7i.jpg", "https://i.imgur.com/dVZdL0U.jpg", "https://i.imgur.com/rp3sx5Y.jpg", "https://i.imgur.com/DdlXGt0.jpg", "https://i.imgur.com/nQLaNxd.jpg", "https://i.imgur.com/B43fKuq.jpg", "https://i.imgur.com/IfiKMx3.jpg", "https://i.imgur.com/WmXfLIp.jpg", "https://i.imgur.com/qrHJXCW.jpg", "https://i.imgur.com/Ozp4AOw.jpg", "https://i.imgur.com/e05MPtH.jpg", "https://i.imgur.com/nramwf6.png", "https://i.imgur.com/oduddEx.jpg", "https://i.imgur.com/NwGj1Qb.png", "https://i.imgur.com/QzTTI1d.jpg", "https://i.imgur.com/vHedWVd.jpg", "https://i.imgur.com/JXhJG1L.jpg", "https://i.imgur.com/eID1jOj.jpg", "https://i.imgur.com/DiWS30Y.jpg", "https://i.imgur.com/5MXN7SX.jpg"];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
     } else if (message.content.indexOf("/ni") >- 1) {
         message.channel.send("https://youtu.be/pmvrl1OfELo?t=30");
     } else if (message.content.indexOf("/fax") >- 1) {
@@ -154,6 +168,11 @@ client.on("message", message => {
                         name: "/avatar",
                         value: "Check your avatar!"
 
+                    }, 
+                    {
+                        name: "/hide",
+                        value: "When you want to hide!"
+
                     },
                     {
                         name: "/popcorn",                            
@@ -166,6 +185,9 @@ client.on("message", message => {
                     {
                         name: "/ball",                              
                         value: "Brings up a ball GIF. HAND selected~"
+                    }, {
+                        name: "dipreject",
+                        value: "When someone wants to dip but failed.."
                     },
                     {
                         name: "/bigman",                              
@@ -210,6 +232,10 @@ client.on("message", message => {
                     {
                         name: "/fax",
                         value: "A command let someone know you agree with what they say. fax = facts."
+                    },
+                    {
+                        name: "/smug",
+                        value: "A command to smug"
                     }
                 ]
               }
