@@ -78,6 +78,8 @@ client.on("message", message => {
                 "DOFFFFYYYY~!~!~!~!~!", "Doffy is in the houssseee!", "Whatcha up to today my good ESTP?"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
+    } else if (message.content == "/hackerman") {
+        message.reply("https://cdn.discordapp.com/attachments/525046526557421570/551080126213914624/4d7.png");
     } else if (message.content === "/comfort") {
         var myArray = ["https://cdn.discordapp.com/attachments/521833712288268298/530617629577052170/6xx8ecfegb821.png","https://external-preview.redd.it/mp4/UNM6751zVnFZaXx3fZ6HvmRbx1JQNdxzdqHpuvVPwVo-source.mp4?s=cebdd9ae162142e5806c7ff569021372d9ab1141","http://gph.is/2loY72U","http://gph.is/2ElfEDh","http://gph.is/2IAczO4","http://gph.is/2nq5i9T","https://gph.is/2mlqHRf","http://gph.is/2jeEDso",
                     "http://gph.is/2kuWelr","https://gph.is/2LgMIfd","http://gph.is/2eMVqmm","http://gph.is/2sRP2lL","http://gph.is/2dlboRM",
@@ -90,7 +92,7 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
     } else if (message.content === "/dip") {
-        var myArray = ["http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/2mWzTNG","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
+        var myArray = ["https://gph.is/g/aQA3nba","http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/2mWzTNG","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.reply(rand);
     } else if (message.content === "/compliment") {
@@ -129,6 +131,10 @@ client.on("message", message => {
                     {
                         name: "/alltypes",                               
                         value: "Brings up all 16 type charts."
+                    },
+                    {
+                        name: "/hackerman",
+                        value: "Brings up Hackerman image :D"
                     },
                     {
                         name: "/popcorn",                            
