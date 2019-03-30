@@ -5,6 +5,18 @@ client.on("ready", () => {
     console.log("I am ready!");
 });
 
+// Create an event listener for new members
+client.on('guildMemberAdd', member => {
+  // Send the message to a designated channel on a server:
+  const channel = member.guild.channels.find(ch => ch.name === 'general');
+  // Do nothing if the channel wasn't found on this server
+  if (!channel) return;
+  // Send the message, mentioning the member
+    var myArray = ["Welcome to the server, ${member}", "HOL' UP, ${member} IS HERE.", "You might be new here.. ${member}.. but I'm watching you.", "Sorry about the mess ${member}, but we kinda live here. Welcome I guess.", "YAY! ${member} is here!", "${member}, My Ni says that you shall love it here.", "Welcome to the dark side ${member}, where all the fun happens.", "I hope you like hot messes and cactuses ${member}, because it's a mess inside.", "${member}, you just walked into something you can never get out of :3", "Welcome to the shit show, ${member}.", "Welcome to our group ${member}. Leaving is not an option :3", "Welcome to my world ${member}! Where we put the FUN in dysfunctional!!", "Welcome to the real Internet ${member}! where the men are men, the women are men, and the children are the FBI.", "Oh you're here ${member}. I see the assassins have failed.", "Welcome to the INFJ Dugeon ${member}. Take some of our complimentary slippers. Cookies and milk are at the back, free spa treatments so long as you're here <3 ", "'Welcome ${member} you are.' - Yoda", "Welcome ${member}, I hope you brought wine.", "Well shit ${member}, it's about time you got here!"];
+    var rand = myArray[Math.floor(Math.random() * myArray.length)];
+    channel.send(rand);
+});
+
 client.on("message", message => {
     if (message.content === '/avatar') {
     // Send the user's avatar URL
