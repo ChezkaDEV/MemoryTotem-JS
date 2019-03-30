@@ -78,7 +78,7 @@ client.on("message", message => {
                 "DOFFFFYYYY~!~!~!~!~!", "Doffy is in the houssseee!", "Whatcha up to today my good ESTP?"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
-    } else if (message.content == "/hackerman") >- 1) {
+    } else if (message.content.indexOf("/hackerman") >- 1) {
         message.channel.send("https://cdn.discordapp.com/attachments/525046526557421570/551080126213914624/4d7.png");
     } else if (message.content.indexOf("/comfort") >- 1) {
         var myArray = ["https://cdn.discordapp.com/attachments/521833712288268298/530617629577052170/6xx8ecfegb821.png","https://external-preview.redd.it/mp4/UNM6751zVnFZaXx3fZ6HvmRbx1JQNdxzdqHpuvVPwVo-source.mp4?s=cebdd9ae162142e5806c7ff569021372d9ab1141","http://gph.is/2loY72U","http://gph.is/2ElfEDh","http://gph.is/2IAczO4","http://gph.is/2nq5i9T","https://gph.is/2mlqHRf","http://gph.is/2jeEDso",
