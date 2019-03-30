@@ -12,15 +12,14 @@ client.on('guildMemberAdd', member => {
   // Do nothing if the channel wasn't found on this server
   if (!channel) return;
   // Send the message, mentioning the member
-    var myArray = [`Welcome to the server, ${member}`, `HOL' UP, ${member} IS HERE.`, `You might be new here.. ${member}.. but I'm watching you.`, `Sorry about the mess ${member}, but we kinda live here. Welcome I guess.`, `YAY! ${member} is here!`, `${member}, My Ni says that you shall love it here.`, `Welcome to the dark side ${member}, where all the fun happens.`, `I hope you like hot messes and cactuses ${member}, because it's a mess inside.`, `${member}, you just walked into something you can never get out of :3`, `Welcome to the shit show, ${member}.`, `Welcome to our group ${member}. Leaving is not an option :3`, `Welcome to my world ${member}! Where we put the FUN in dysfunctional!!`, `Welcome to the real Internet ${member}! where the men are men, the women are men, and the children are the FBI.`, `Oh you're here ${member}. I see the assassins have failed.`, `Welcome to the INFJ Dugeon ${member}. Take some of our complimentary slippers. Cookies and milk are at the back, free spa treatments so long as you're here <3 `, `'Welcome ${member} you are.' - Yoda`, `Welcome ${member}, I hope you brought wine.`, `Well shit ${member}, it's about time you got here!`];
+    var myArray = [`ALREADY DISTURBED. Proceed with caution ${member}.`,`You better have tacos ${member}.`,`Welcome to the INFJ residence, ${member}.`,`Home is where the pants aren't. Am I right or am I right, ${member}? `,`If you forgot the wine.. just go home ${member}.. Just.. Go home.`,`As you entered this server, I already know everything about you. I mean.. Welcome, ${member}.`,`Welcome aboard ${member}! Go to #get-roles to set your roles and go to #get-to-know-people to stalk everyones information!`,`New server, who dis? ${member}`,`${member} is kind. ${member} is smart. ${member} is welcome.`,`Come in ${member}, we're awesome.`,`Welcome ${member}, it's lit!`,`Wizards Welcome, Muggles Tolerated. Which one are you, ${member}?`,`Welcome ${member}, just don't except much.`,`How You Doin' ${member}?`,`Welcome to the server, ${member}`, `HOL' UP, ${member} IS HERE.`, `You might be new here.. ${member}.. but I'm watching you.`, `Sorry about the mess ${member}, but we kinda live here. Welcome I guess.`, `YAY! ${member} is here!`, `${member}, My Ni says that you shall love it here.`, `Welcome to the dark side ${member}, where all the fun happens.`, `I hope you like hot messes and cactuses ${member}, because it's a mess inside.`, `${member}, you just walked into something you can never get out of :3`, `Welcome to the shitshow, ${member}.`, `Welcome to our group ${member}. Leaving is not an option :3`, `Welcome to my world ${member}! Where we put the FUN in dysfunctional!!`, `Welcome to the real Internet ${member}! where the men are men, the women are men, and the children are the FBI.`, `Oh you're here ${member}. I see the assassins have failed.`, `Welcome to the INFJ Dugeon ${member}. Take some of our complimentary slippers. Cookies and milk are at the back, free spa treatments so long as you're here <3 `, `'Welcome ${member} you are.' - Yoda`, `Welcome ${member}, I hope you brought wine.`, `Well shit ${member}, it's about time you got here!`];
     var rand = myArray[Math.floor(Math.random() * myArray.length)];
     channel.send(rand);
 });
 
 client.on("message", message => {
     if (message.content === '/avatar') {
-    // Send the user's avatar URL
-    message.reply(message.author.avatarURL);
+    message.reply("I can't get others' avatar yet, sorry!",message.author.avatarURL);
   } else if (message.content.indexOf("/estj") >- 1) {
         message.channel.send("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     } else if (message.content.indexOf("/estp") >- 1) {
@@ -150,6 +149,11 @@ client.on("message", message => {
                     {
                         name: "/hackerman",
                         value: "Brings up Hackerman image :D"
+                    }, 
+                    {
+                        name: "/avatar",
+                        value: "Check your avatar!"
+
                     },
                     {
                         name: "/popcorn",                            
