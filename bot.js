@@ -7,7 +7,7 @@ client.on("ready", () => {
 
 client.on("message", message => {
     if (message.content === "/estj") {
-        message.message("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
+        message.toString("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     } else if (message.content === "/estp") {
         message.reply("Whats up with ESTPs today? https://cdn.discordapp.com/attachments/460862099766247434/463929677971718144/ESTP.jpg");
     } else if (message.content === "/entj") {
