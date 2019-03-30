@@ -6,7 +6,10 @@ client.on("ready", () => {
 });
 
 client.on("message", message => {
-    if (message.content.indexOf("/estj") >- 1) {
+    if (message.content === '/avatar') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  } else if (message.content.indexOf("/estj") >- 1) {
         message.channel.send("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     } else if (message.content.indexOf("/estp") >- 1) {
         message.channel.send("Whats up with ESTPs today? https://cdn.discordapp.com/attachments/460862099766247434/463929677971718144/ESTP.jpg");
