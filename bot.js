@@ -122,7 +122,7 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/grats") >- 1) {
-        var myArray = ["https://www.youtube.com/watch?v=wDajqW561KM","https://youtu.be/1Bix44C1EzY"];   
+        var myArray = ["https://cdn.discordapp.com/attachments/521826889023881216/561768376687525888/DCmsyDq.png", "https://www.youtube.com/watch?v=wDajqW561KM","https://youtu.be/1Bix44C1EzY"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/smug") >- 1) {
@@ -186,7 +186,7 @@ client.on("message", message => {
                         name: "/ball",                              
                         value: "Brings up a ball GIF. HAND selected~"
                     }, {
-                        name: "dipreject",
+                        name: "/dipreject",
                         value: "When someone wants to dip but failed.."
                     },
                     {
