@@ -156,7 +156,7 @@ client.on("message", message => {
                         value: "Principled, Purposeful, Self-Controlled, and Perfectionistic"
                     },
                     {
-                        name: "",
+                        name: "d",
                         value: "Ones are conscientious and ethical, with a strong sense of right and wrong. They are teachers, crusaders, and advocates for change: always striving to improve things, but afraid of making a mistake. Well-organized, orderly, and fastidious, they try to maintain high standards, but can slip into being critical and perfectionistic. They typically have problems with resentment and impatience. At their Best: wise, discerning, realistic, and noble. Can be morally heroic."
                     },
                 ]
