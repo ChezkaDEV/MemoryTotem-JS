@@ -142,7 +142,18 @@ client.on("message", message => {
     } else if (message.content.indexOf("/csj-grid") >- 1) {
         message.channel.send("https://cdn.discordapp.com/attachments/521813298577014800/521813965324681292/Temperament_Matrix.png https://cdn.discordapp.com/attachments/521813298577014800/521814013051404317/Type_Grid.png");
     } else if (message.content.indexOf("/core1") >- 1) {
-        message.channel.send("link: https://www.enneagraminstitute.com/type-1<br>        THE REFORMER - Enneagram Type One<br>The Rational, Idealistic Type: Principled, Purposeful, Self-Controlled, and Perfectionistic<br><br>Ones are conscientious and ethical, with a strong sense of right and wrong. They are teachers, crusaders, and advocates for change: always striving to improve things, but afraid of making a mistake. Well-organized, orderly, and fastidious, they try to maintain high standards, but can slip into being critical and perfectionistic. They typically have problems with resentment and impatience. At their Best: wise, discerning, realistic, and noble. Can be morally heroic.<br><br>Basic Fear: Of being corrupt/evil, defective<br>Basic Desire: To be good, to have integrity, to be balanced<br>Enneagram One with a Nine-Wing: 'The Idealist'<br>Enneagram One with a Two-Wing: 'The Advocate'<br>Key Motivations: Want to be right, to strive higher and improve everything, to be consistent with their ideals, to justify themselves, to be beyond criticism so as not to be condemned by anyone.");
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "THE Reformer - Enneagram Type One",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "link: https://www.enneagraminstitute.com/type-1"
+                    }
+                ]
+              }
+            });
     } else if (message.content.indexOf("/help") >- 1) {
         message.channel.send({
             embed: {
