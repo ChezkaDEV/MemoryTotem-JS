@@ -149,8 +149,15 @@ client.on("message", message => {
                 fields: [
                     {
                         name: "link:",                              
-                        value: "link: https://www.enneagraminstitute.com/type-1"
-                    }
+                        value: "https://www.enneagraminstitute.com/type-1"
+                    },
+                    {
+                        name: "The Rational, Idealistic Type:",
+                        value: "Principled, Purposeful, Self-Controlled, and Perfectionistic"
+                    },
+                    {
+                        value: "Ones are conscientious and ethical, with a strong sense of right and wrong. They are teachers, crusaders, and advocates for change: always striving to improve things, but afraid of making a mistake. Well-organized, orderly, and fastidious, they try to maintain high standards, but can slip into being critical and perfectionistic. They typically have problems with resentment and impatience. At their Best: wise, discerning, realistic, and noble. Can be morally heroic."
+                    },
                 ]
               }
             });
@@ -184,12 +191,10 @@ client.on("message", message => {
                     {
                         name: "/avatar",
                         value: "Check your avatar!"
-
                     }, 
                     {
                         name: "/hide",
                         value: "When you want to hide!"
-
                     },
                     {
                         name: "/popcorn",                            
@@ -202,7 +207,8 @@ client.on("message", message => {
                     {
                         name: "/ball",                              
                         value: "Brings up a ball GIF. HAND selected~"
-                    }, {
+                    }, 
+                    {
                         name: "/dipreject",
                         value: "When someone wants to dip but failed.."
                     },
