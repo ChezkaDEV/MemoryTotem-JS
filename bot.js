@@ -19,7 +19,7 @@ client.on('guildMemberAdd', member => {
 
 client.on("message", message => {
     if (message.content === '/avatar') {
-    message.reply("I can't get others' avatar yet, sorry!",message.author.avatarURL);
+        message.reply(message.author.avatarURL);
   } else if (message.content.indexOf("/estj") >- 1) {
         message.channel.send("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     } else if (message.content.indexOf("/estp") >- 1) {
