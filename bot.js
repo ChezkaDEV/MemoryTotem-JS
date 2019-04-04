@@ -531,7 +531,7 @@ client.on("message", message => {
                     },
                     {
                         name: "/core[x]",                              
-                        value: "Bring up the Enneagram description for each core type."
+                        value: "Bring up the Enneagram description for each core type. (1-9) e.g. /core5"
                     },
                     {
                         name: "/hackerman",
