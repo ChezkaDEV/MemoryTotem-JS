@@ -145,7 +145,7 @@ client.on("message", message => {
         message.channel.send({
             embed: {
                 color: 3447003,
-                description: "THE Reformer - Enneagram Type One",
+                description: "The Reformer - Enneagram Type One",
                 fields: [
                     {
                         name: "link:",                              
@@ -156,9 +156,357 @@ client.on("message", message => {
                         value: "Principled, Purposeful, Self-Controlled, and Perfectionistic"
                     },
                     {
-                        name: "d",
+                        name: "Overview:",
                         value: "Ones are conscientious and ethical, with a strong sense of right and wrong. They are teachers, crusaders, and advocates for change: always striving to improve things, but afraid of making a mistake. Well-organized, orderly, and fastidious, they try to maintain high standards, but can slip into being critical and perfectionistic. They typically have problems with resentment and impatience. At their Best: wise, discerning, realistic, and noble. Can be morally heroic."
                     },
+                    {
+                        name: "Basic Fear: ",
+                        value: "Of being corrupt/evil, defective"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To be good, to have integrity, to be balanced"
+                    },
+                    {
+                        name: "Enneagram One with a Nine-Wing:",
+                        value: "'The Idealist'"
+                    },
+                    {
+                        name: "Enneagram One with a Two-Wing:",
+                        value: "'The Advocate'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to be right, to strive higher and improve everything, to be consistent with their ideals, to justify themselves, to be beyond criticism so as not to be condemned by anyone."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core2") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Helper - Enneagram Type Two",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-2"
+                    },
+                    {
+                        name: "The Caring, Interpersonal Type: ",
+                        value: "Generous, Demonstrative, People-Pleasing, and Possessive"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Twos are empathetic, sincere, and warm-hearted. They are friendly, generous, and self-sacrificing, but can also be sentimental, flattering, and people-pleasing. They are well-meaning and driven to be close to others, but can slip into doing things for others in order to be needed. They typically have problems with possessiveness and with acknowledging their own needs. At their Best: unselfish and altruistic, they have unconditional love for others."
+                    },
+                    {
+                        name: "Basic Fear: ",
+                        value: "Of being unwanted, unworthy of being loved"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To feel loved"
+                    },
+                    {
+                        name: "Enneagram One with a One-Wing:",
+                        value: "'Servant'"
+                    },
+                    {
+                        name: "Enneagram One with a Three-Wing:",
+                        value: "'The Host/Hostess'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to be loved, to express their feelings for others, to be needed and appreciated, to get others to respond to them, to vindicate their claims about themselves."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core3") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Achiever - Enneagram Type Three",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-3"
+                    },
+                    {
+                        name: "The Success-Oriented, Pragmatic Type: ",
+                        value: "Adaptable, Excelling, Driven, and Image-Conscious"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Threes are self-assured, attractive, and charming. Ambitious, competent, and energetic, they can also be status-conscious and highly driven for advancement. They are diplomatic and poised, but can also be overly concerned with their image and what others think of them. They typically have problems with workaholism and competitiveness. At their Best: self-accepting, authentic, everything they seem to be—role models who inspire others."
+                    },
+                    {
+                        name: "Basic Fear: ",
+                        value: "Of being worthless"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To feel valuable and worthwhile"
+                    },
+                    {
+                        name: "Enneagram One with a Two-Wing:",
+                        value: "'The Charmer'"
+                    },
+                    {
+                        name: "Enneagram One with a Four-Wing:",
+                        value: "'The Professional'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to be affirmed, to distinguish themselves from others, to have attention, to be admired, and to impress others."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core4") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Individualist - Enneagram Type Four",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-4"
+                    },
+                    {
+                        name: "The Sensitive, Introspective Type: ",
+                        value: "Expressive, Dramatic, Self-Absorbed, and Temperamental"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Fours are self-aware, sensitive, and reserved. They are emotionally honest, creative, and personal, but can also be moody and self-conscious. Withholding themselves from others due to feeling vulnerable and defective, they can also feel disdainful and exempt from ordinary ways of living. They typically have problems with melancholy, self-indulgence, and self-pity. At their Best: inspired and highly creative, they are able to renew themselves and transform their experiences."
+                    },
+                    {
+                        name: "Basic Fear:",
+                        value: "That they have no identity or personal significance"
+                    },
+                    {
+                        name: "Basic Desire:",
+                        value: "To find themselves and their significance (to create an identity)"
+                    },
+                    {
+                        name: "Enneagram One with a Three-Wing:",
+                        value: "'The Aristocrat'"
+                    },
+                    {
+                        name: "Enneagram One with a Five-Wing:",
+                        value: "'The Bohemian'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to express themselves and their individuality, to create and surround themselves with beauty, to maintain certain moods and feelings, to withdraw to protect their self-image, to take care of emotional needs before attending to anything else, to attract a 'rescuer.'"
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core5") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Investigator - Enneagram Type Five",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-5"
+                    },
+                    {
+                        name: "The Intense, Cerebral Type: ",
+                        value: "Perceptive, Innovative, Secretive, and Isolated"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Fives are alert, insightful, and curious. They are able to concentrate and focus on developing complex ideas and skills. Independent, innovative, and inventive, they can also become preoccupied with their thoughts and imaginary constructs. They become detached, yet high-strung and intense. They typically have problems with eccentricity, nihilism, and isolation. At their Best: visionary pioneers, often ahead of their time, and able to see the world in an entirely new way."
+                    },
+                    {
+                        name: "Basic Fear: ",
+                        value: "Being useless, helpless, or incapable"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To be capable and competent"
+                    },
+                    {
+                        name: "Enneagram One with a Four-Wing:",
+                        value: "'The Iconoclast'"
+                    },
+                    {
+                        name: "Enneagram One with a Six-Wing:",
+                        value: "'The Problem Solver'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to possess knowledge, to understand the environment, to have everything figured out as a way of defending the self from threats from the environment."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core6") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Loyalist - Enneagram Type Six",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-6"
+                    },
+                    {
+                        name: "The Committed, Security-Oriented Type: ",
+                        value: "Engaging, Responsible, Anxious, and Suspicious"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "The committed, security-oriented type. Sixes are reliable, hard-working, responsible, and trustworthy. Excellent 'troubleshooters,' they foresee problems and foster cooperation, but can also become defensive, evasive, and anxious—running on stress while complaining about it. They can be cautious and indecisive, but also reactive, defiant and rebellious. They typically have problems with self-doubt and suspicion. At their Best: internally stable and self-reliant, courageously championing themselves and others."
+                    },
+                    {
+                        name: "Basic Fear: ",
+                        value: "Of being without support and guidance"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To have security and support"
+                    },
+                    {
+                        name: "Enneagram One with a Five-Wing:",
+                        value: "'The Defender'"
+                    },
+                    {
+                        name: "Enneagram One with a Seven-Wing:",
+                        value: "'The Buddy'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to have security, to feel supported by others, to have certitude and reassurance, to test the attitudes of others toward them, to fight against anxiety and insecurity."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core7") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Enthusiast - Enneagram Type Seven",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: ""
+                    },
+                    {
+                        name: "The Busy, Variety-Seeking Type:",
+                        value: "Spontaneous, Versatile, Acquisitive, and Scattered"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Sevens are extroverted, optimistic, versatile, and spontaneous. Playful, high-spirited, and practical, they can also misapply their many talents, becoming over-extended, scattered, and undisciplined. They constantly seek new and exciting experiences, but can become distracted and exhausted by staying on the go. They typically have problems with impatience and impulsiveness. At their Best: they focus their talents on worthwhile goals, becoming appreciative, joyous, and satisfied."
+                    },
+                    {
+                        name: "Basic Fear:",
+                        value: "Of being deprived and in pain"
+                    },
+                    {
+                        name: "Basic Desire:",
+                        value: "To be satisfied and content—to have their needs fulfilled"
+                    },
+                    {
+                        name: "Enneagram One with a Six-Wing:",
+                        value: "'The Entertainer'"
+                    },
+                    {
+                        name: "Enneagram One with a Eight-Wing:",
+                        value: "'The Realist'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to maintain their freedom and happiness, to avoid missing out on worthwhile experiences, to keep themselves excited and occupied, to avoid and discharge pain."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core8") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Challenger - Enneagram Type Eight",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-8"
+                    },
+                    {
+                        name: "The Powerful, Dominating Type: ",
+                        value: "Self-Confident, Decisive, Willful, and Confrontational"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Eights are self-confident, strong, and assertive. Protective, resourceful, straight-talking, and decisive, but can also be ego-centric and domineering. Eights feel they must control their environment, especially people, sometimes becoming confrontational and intimidating. Eights typically have problems with their tempers and with allowing themselves to be vulnerable. At their Best: self- mastering, they use their strength to improve others' lives, becoming heroic, magnanimous, and inspiring."
+                    },
+                    {
+                        name: "Basic Fear:",
+                        value: "Of being harmed or controlled by others"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To protect themselves (to be in control of their own life and destiny)"
+                    },
+                    {
+                        name: "Enneagram One with a Seven-Wing:",
+                        value: "'The Maverick'"
+                    },
+                    {
+                        name: "Enneagram One with a Nine-Wing:",
+                        value: "'The Bear'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to be self-reliant, to prove their strength and resist weakness, to be important in their world, to dominate the environment, and to stay in control of their situation."
+                    }
+                ]
+              }
+            });
+    } else if (message.content.indexOf("/core9") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "The Peacemaker - Enneagram Type Nine",
+                fields: [
+                    {
+                        name: "link:",                              
+                        value: "https://www.enneagraminstitute.com/type-9"
+                    },
+                    {
+                        name: "The Easygoing, Self-Effacing Type:",
+                        value: "Receptive, Reassuring Agreeable, and Complacent"
+                    },
+                    {
+                        name: "Overview:",
+                        value: "Nines are accepting, trusting, and stable. They are usually creative, optimistic, and supportive, but can also be too willing to go along with others to keep the peace. They want everything to go smoothly and be without conflict, but they can also tend to be complacent, simplifying problems and minimizing anything upsetting. They typically have problems with inertia and stubbornness. At their Best: indomitable and all-embracing, they are able to bring people together and heal conflicts."
+                    },
+                    {
+                        name: "Basic Fear: ",
+                        value: "Of loss and separation"
+                    },
+                    {
+                        name: "Basic Desire: ",
+                        value: "To have inner stability 'peace of mind'"
+                    },
+                    {
+                        name: "Enneagram One with a Eight-Wing:",
+                        value: "'The Referee'"
+                    },
+                    {
+                        name: "Enneagram One with a One-Wing:",
+                        value: "'The Dreamer'"
+                    },
+                    {
+                        name: "Key Motivations:",
+                        value: "Want to create harmony in their environment, to avoid conflicts and tension, to preserve things as they are, to resist whatever would upset or disturb them."
+                    }
                 ]
               }
             });
