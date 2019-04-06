@@ -395,7 +395,7 @@ client.on("message", message => {
                 fields: [
                     {
                         name: "link:",                              
-                        value: ""
+                        value: "https://www.enneagraminstitute.com/type-7"
                     },
                     {
                         name: "The Busy, Variety-Seeking Type:",
