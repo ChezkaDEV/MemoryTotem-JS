@@ -114,7 +114,7 @@ client.on("message", message => {
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/dip") >- 1) {
-        var myArray = ["https://media.giphy.com/media/13sozYO4hmSMUw/giphy.gif","https://media.giphy.com/media/haEpZ7eLjtZM4/giphy.gif","https://gph.is/g/aQA3nba","http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/2mWzTNG","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
+        var myArray = ["https://media.tenor.com/images/351712ea03f78aa016f0874dbd45dbb5/tenor.gif","https://media.giphy.com/media/13sozYO4hmSMUw/giphy.gif","https://media.giphy.com/media/haEpZ7eLjtZM4/giphy.gif","https://gph.is/g/aQA3nba","http://gph.is/LF9JsP","http://gph.is/11WXB7F","http://gph.is/1heaaoC","http://gph.is/2mWzTNG","http://gph.is/1BSU9Tq","https://gph.is/2Hs9nCu","http://gph.is/ZouwHV","http://gph.is/11RS3RB","http://gph.is/VwATUb","https://imgur.com/a/rd9a8wD","https://tenor.com/view/devilman-crybaby-run-gif-10824304","http://gph.is/VwFBBn","http://gph.is/1sFQ956", "http://gph.is/1o8bWNB","http://gph.is/2c19tlH","https://gph.is/2KClbVk","http://gph.is/1JzLn0q","http://gph.is/Vx7IjP","http://gph.is/2a9u0IM","http://gph.is/2pBao24","http://gph.is/2gNYzpN","http://gph.is/2B1uYCu"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/compliment") >- 1) {
@@ -123,6 +123,14 @@ client.on("message", message => {
         message.channel.send(rand);
     } else if (message.content.indexOf("/grats") >- 1) {
         var myArray = ["https://cdn.discordapp.com/attachments/521826889023881216/561768376687525888/DCmsyDq.png", "https://www.youtube.com/watch?v=wDajqW561KM","https://youtu.be/1Bix44C1EzY"];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
+    }  else if (message.content.indexOf("/awks") >- 1) {
+        var myArray = ["https://media.giphy.com/media/kaq6GnxDlJaBq/giphy.gif","https://media.giphy.com/media/unFLKoAV3TkXe/giphy.gif","https://media.giphy.com/media/AmDzMmCJZABsk/giphy.gif","https://media.giphy.com/media/mEqMknMZWh1Fm/giphy.gif","https://media.giphy.com/media/sl0ko2YmprL5m/giphy.gif","https://media.giphy.com/media/7zSzFBQwwGMC54c19q/giphy.gif","https://media.giphy.com/media/uX7LYCe5h3ggik4jBa/giphy.gif","https://media.giphy.com/media/qINsfDGI0z9yU/giphy.gif","https://media.giphy.com/media/l6JskfRsDnAud0SCAi/giphy.gif","https://media.giphy.com/media/qwhoLuIJiiGCQ/giphy.gif","https://media.giphy.com/media/idSnyh1gs1kly/giphy.gif","https://media.tenor.com/images/20f24ca1eff60a8295966b64071cf471/tenor.gif","https://media.tenor.com/images/7edd7124f6a673d47c40d45ed0815234/tenor.gif","https://media.tenor.com/images/0b0c586df4b0947ae898ba30ab48f9c2/tenor.gif","https://media.tenor.com/images/2d4acce9125a6a099d589c701ef4b6a0/tenor.gif","https://media.tenor.com/images/5c96b025e7769c7c69828f24fb72d699/tenor.gif","https://media.tenor.com/images/73b6b97cb0278b9e03ac8a7345be03a5/tenor.gif","https://media.tenor.com/images/4fd583233a1afa7f27fa7df7a486b79b/tenor.gif","https://media.tenor.com/images/dd473b7d8712e74d4c881149043490f3/tenor.gif","https://media.tenor.com/images/7a2e1e82d80910e18c1beed3fe7adf2c/tenor.gif","https://media.tenor.com/images/095a3bacb6e011a3a92a874996285349/tenor.gif","","","","",""];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
+    } else if (message.content.indexOf("/yikes") >- 1) {
+        var myArray = ["https://cdn.discordapp.com/attachments/527774000667951104/564121902017413120/unknown.gif","https://cdn.discordapp.com/attachments/527774000667951104/564121968589144084/unknown.gif","https://cdn.discordapp.com/attachments/527774000667951104/564122008510791684/unknown.gif","https://media.giphy.com/media/80TEu4wOBdPLG/giphy.gif","https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif","https://media.giphy.com/media/mwhLXQEKupENG/giphy.gif","https://media.giphy.com/media/xT0GqfvuVpNqEf3z2w/giphy.gif","https://media.giphy.com/media/xT9IgyuM7u3eOZ8AO4/giphy.gif","https://media.giphy.com/media/yy2lp8r2yIBrsqaQle/giphy.gif","https://media.giphy.com/media/l1J9yeYz7ktgWrHGw/giphy.gif","https://media.giphy.com/media/NUerTUMGyYyKoUl0pK/giphy.gif","https://media.giphy.com/media/EMTQ0Y4UgYzKM/giphy.gif","https://media.giphy.com/media/2sfHkpLao4jJUSYpBw/giphy.gif","https://media.giphy.com/media/l3V0nRGCDHliELAkg/giphy.gif","https://media.giphy.com/media/u24hPghx6dB1m/giphy.gif","https://media.giphy.com/media/jpOy7HTgWnFtK/giphy.gif","https://media.giphy.com/media/gOmfNDR45WAb6/giphy.gif"];   
         var rand = myArray[Math.floor(Math.random() * myArray.length)];
         message.channel.send(rand);
     } else if (message.content.indexOf("/smug") >- 1) {
@@ -608,6 +616,14 @@ client.on("message", message => {
                     {
                         name: "/smug",
                         value: "A command to smug"
+                    },
+                    {
+                        name: "/awks",
+                        value: "Hand collected awkward gifs."
+                    },
+                    {
+                        name: "/yikes",
+                        value: "Hand collected yikes gifs."
                     }
                 ]
               }
