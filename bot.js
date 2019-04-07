@@ -532,17 +532,17 @@ client.on("message", message => {
                             "If you want to teach me anymore commands, feel free to go to **#bytes-bot-request** channel~",
                 fields: [
                     {
-                        name: "/help psychology",                              
+                        name: "/help-psy",                              
                         value: "Brings up all the commands relating Depth Psychology, MBTI, Enneagram, etc."
                     },
                     {
-                        name: "/help fun",                              
+                        name: "/help-fun",                              
                         value: "Brings up a list of the fun commands. mostly GIFs and stuff."
                     }
                 ]
               }
         });
-    } else if (message.content === "/help psychology") {
+    } else if (message.content.indexOf("/help-psy") >- 1) {
         message.channel.send({
             embed: {
                 color: 3447003,
@@ -567,7 +567,7 @@ client.on("message", message => {
                 ]
               }
         });
-    } else if (message.content.indexOf("/help fun") >- 1) {
+    } else if (message.content.indexOf("/help-fun") >- 1) {
         message.channel.send({
             embed: {
                 color: 3447003,
