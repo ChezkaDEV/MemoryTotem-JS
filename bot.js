@@ -542,7 +542,7 @@ client.on("message", message => {
                 ]
               }
         });
-    } else if (message.content == "/help psychology") {
+    } else if (message.content === "/help psychology") {
         message.channel.send({
             embed: {
                 color: 3447003,
