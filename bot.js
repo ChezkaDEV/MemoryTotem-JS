@@ -532,14 +532,6 @@ client.on("message", message => {
                             "If you want to teach me anymore commands, feel free to go to **#bytes-bot-request** channel~",
                 fields: [
                     {
-                        name: "/help psychology",                              
-                        value: "Brings up all the commands relating Depth Psychology, MBTI, Enneagram, etc."
-                    },
-                    {
-                        name: "/help fun",                              
-                        value: "Brings up a list of the fun commands. mostly GIFs and stuff."
-                    },
-                    {
                         name: "/[type]",                              
                         value: "Brings up the type chart for a specific type. Replace `[type]` with the type you want (e.g. **/infj**)"
                     },
