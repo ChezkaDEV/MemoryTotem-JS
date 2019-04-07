@@ -538,7 +538,7 @@ client.on("message", message => {
                     {
                         name: "/help fun",                              
                         value: "Brings up a list of the fun commands. mostly GIFs and stuff."
-                    }
+                    },
                     {
                         name: "/[type]",                              
                         value: "Brings up the type chart for a specific type. Replace `[type]` with the type you want (e.g. **/infj**)"
