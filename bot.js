@@ -142,7 +142,9 @@ client.on("message", message => {
     } else if (message.content.indexOf("/fax") >- 1) {
         message.channel.send("https://cdn.discordapp.com/attachments/525046526557421570/539605915310096394/Fax-Punch.png");
     }  else if (message.content.indexOf("/handshake") >- 1) {
-        message.channel.send("https://giphy.com/gifs/arnold-schwarzenegger-predator-carl-weathers-BvsKJXGzqfNPq");
+        var myArray = ["https://giphy.com/gifs/arnold-schwarzenegger-predator-carl-weathers-BvsKJXGzqfNPq","https://i.kym-cdn.com/photos/images/original/001/435/923/182.gif"];   
+        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+        message.channel.send(rand);
     } else if (message.content.indexOf("/zoop") >- 1) {
         message.channel.send("https://discordemoji.com/assets/emoji/fingergunz.gif");
     } else if (message.content.indexOf("/gf3") >- 1) {
