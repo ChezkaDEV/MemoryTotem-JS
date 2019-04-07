@@ -532,6 +532,23 @@ client.on("message", message => {
                             "If you want to teach me anymore commands, feel free to go to **#bytes-bot-request** channel~",
                 fields: [
                     {
+                        name: "/help psychology",                              
+                        value: "Brings up all the commands relating Depth Psychology, MBTI, Enneagram, etc."
+                    },
+                    {
+                        name: "/help fun",                              
+                        value: "Brings up a list of the fun commands. mostly GIFs and stuff."
+                    }
+                ]
+              }
+        });
+    } else if (message.content.indexOf("/help psychology") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "Brings up all the commands relating Depth Psychology, MBTI, Enneagram, etc.",
+                fields: [
+                    {
                         name: "/[type]",                              
                         value: "Brings up the type chart for a specific type. Replace `[type]` with the type you want (e.g. **/infj**)"
                     },
@@ -546,7 +563,16 @@ client.on("message", message => {
                     {
                         name: "/core[x]",                              
                         value: "Bring up the Enneagram description for each core type. (1-9) e.g. /core5"
-                    },
+                    }
+                ]
+              }
+        });
+    } else if (message.content.indexOf("/help fun") >- 1) {
+        message.channel.send({
+            embed: {
+                color: 3447003,
+                description: "Brings up a list of the fun commands. mostly GIFs and stuff.",
+                fields: [
                     {
                         name: "/hackerman",
                         value: "Brings up Hackerman image :D"
@@ -554,6 +580,10 @@ client.on("message", message => {
                     {
                         name: "/avatar",
                         value: "Check your avatar!"
+                    },  
+                    {
+                        name: "/anxiety",
+                        value: "Brings up gifs of anxiety stuff."
                     }, 
                     {
                         name: "/hide",
