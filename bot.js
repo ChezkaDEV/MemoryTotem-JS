@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const querystring = require('querystring');
 
 const client = new Discord.Client();
-const prefix = '!';
+const prefix = '$';
 
 const trim = (str, max) => (str.length > max ? `${str.slice(0, max - 3)}...` : str);
 
@@ -17,11 +17,7 @@ client.on('message', async message => {
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 
-	if (command === 'cat') {
-		const { body } = await fetch('https://aws.random.cat/meow').then(response => response.json());
-
-		message.channel.send(body.file);
-	} else if (command === 'urban') {
+	if (command === 'urban') {
 		if (!args.length) {
 			return message.channel.send('You need to supply a search term!');
 		}
@@ -44,9 +40,10 @@ client.on('message', async message => {
 			.addField('Example', trim(answer.example, 1024))
 			.addField('Rating', `${answer.thumbs_up} thumbs up. ${answer.thumbs_down} thumbs down.`);
 
-		message.channel.send(embed);
+        //message.channel.send(embed);
+        message.channel.send(body.list[0].definition);
 	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+client.login("NTI0OTg0OTU0MzMwMDIxODky.Dwbheg.ni2uxQUOlJ5pIWVMOwFGhY7IBqQ");//BOT_TOKEN is the Client Secret
