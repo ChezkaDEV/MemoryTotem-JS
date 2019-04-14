@@ -21,7 +21,7 @@ client.on('guildMemberAdd', member => {
 client.on("message", message => {
     if (message.content === '/avatar') {
         message.reply(message.author.avatarURL);
-  } else if (command === '/urban') {
+  } else if (message === '/urban') {
     if (!args.length) {
       return message.channel.send('You need to supply a search term!');
     }
