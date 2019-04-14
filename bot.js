@@ -19,8 +19,13 @@ client.on('guildMemberAdd', member => {
 });
 
 
+const client = new Discord.Client();
+const prefix = '!';
+const fetch = require('node-fetch');
 
-var prefix = '/';
+const trim = (str, max) => 
+    (str.length > max ? `${str.slice(0, max - 3)}...` : str);
+
 client.on('message', async message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -75,7 +80,9 @@ client.on('message', async message => {
 client.on("message", message => {
     if (message.content === '/avatar') {
         message.reply(message.author.avatarURL);
-  } else if (message.content.indexOf("/estj") >- 1) {
+  } 
+  
+  else if (message.content.indexOf("/estj") >- 1) {
         message.channel.send("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     } else if (message.content.indexOf("/estp") >- 1) {
         message.channel.send("Whats up with ESTPs today? https://cdn.discordapp.com/attachments/460862099766247434/463929677971718144/ESTP.jpg");
