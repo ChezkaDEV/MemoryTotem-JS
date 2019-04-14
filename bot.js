@@ -18,17 +18,64 @@ client.on('guildMemberAdd', member => {
     channel.send(rand);
 });
 
+
+
+
+client.on('message', async message => {
+	if (!message.content.startsWith(prefix) || message.author.bot) return;
+
+	const args = message.content.slice(prefix.length).split(/ +/);
+	const command = args.shift().toLowerCase();
+
+	if (command === 'cat') {
+		const { body } = await fetch('https://aws.random.cat/meow').then(response => response.json());
+
+		message.channel.send(body.file);
+	} else if (command === 'urban') {
+		if (!args.length) {
+			return message.channel.send('You need to supply a search term!');
+		}
+
+		const query = querystring.stringify({ term: args.join(' ') });
+
+		const { body } = await fetch.get(`https://api.urbandictionary.com/v0/define${query}`).then(response => response.json());
+
+		if (!body.list.length) {
+			return message.channel.send(`No results found for **${args.join(' ')}**.`);
+		}
+
+		const [answer] = body.list;
+
+		const embed = new Discord.RichEmbed()
+			.setColor('#EFFF00')
+			.setTitle(answer.word)
+			.setURL(answer.permalink)
+			.addField('Definition', trim(answer.definition, 1024))
+			.addField('Example', trim(answer.example, 1024))
+			.addField('Rating', `${answer.thumbs_up} thumbs up. ${answer.thumbs_down} thumbs down.`);
+
+		message.channel.send(embed);
+	}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 client.on("message", message => {
     if (message.content === '/avatar') {
         message.reply(message.author.avatarURL);
-  } else if (message === '/urban') {
-    if (!args.length) {
-      return message.channel.send('You need to supply a search term!');
-    }
-    const query = querystring.stringify({ term: args.join(' ') });
-    const { body } = await fetch(`https://api.urbandictionary.com/v0/define?${query}`).then(response => response.json());
-  }
-  else if (message.content.indexOf("/estj") >- 1) {
+  } else if (message.content.indexOf("/estj") >- 1) {
         message.channel.send("Lets see what C.S. Joseph thinks about ESTJs! https://cdn.discordapp.com/attachments/460862072138498048/463928638505746452/ESTJ.jpg");
     } else if (message.content.indexOf("/estp") >- 1) {
         message.channel.send("Whats up with ESTPs today? https://cdn.discordapp.com/attachments/460862099766247434/463929677971718144/ESTP.jpg");
